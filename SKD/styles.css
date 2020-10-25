@@ -1,0 +1,136 @@
+:root {
+	--main-color: #303332;
+	--sec-color: #fcfa96;
+	--third-color: #d04b38;
+	--y-color: #f6d738;
+}
+
+* p {
+	font-size: 18px;
+}
+
+.org {
+	color: var(--third-color);
+}
+
+/* Navbar */
+.nav-wrapper {
+	background-color: var(--main-color);
+}
+
+.nav-li {
+	font-weight: bold;
+}
+
+.brand-logo img {
+	padding-top: 10px;
+}
+/* Nav Bar End */
+
+/* Main Content */
+#info {
+	background-color: var(--main-color);
+	padding-bottom: 2em !important;
+}
+
+#tyres {
+	margin-bottom: 7em;
+}
+
+#tyres h3 {
+	padding-top: -10em !important;
+	margin-top: 0 !important;
+}
+
+#tyres h4 {
+	padding-top: 1em;
+}
+
+#tyres img {
+	margin-top: 3em;
+}
+
+.refurb {
+	background-color: var(--sec-color);
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+#service h3 {
+	padding-top: 2em;
+	margin-top: 0 !important;
+}
+
+#service img {
+	padding-top: 7em;
+	margin-top: 0 !important;
+}
+
+#service h4 {
+	padding-top: 1em;
+}
+
+.section {
+	padding-top: 4vh;
+	padding-bottom: 4vh;
+}
+
+.section {
+	padding-top: 4vw;
+	padding-bottom: 4vw;
+}
+/* Main Content End */
+
+/* Contact Page */
+#contact {
+	background-color: var(--main-color);
+}
+
+#contact li {
+	font-weight: bold;
+}
+
+h2 {
+	color: var(--sec-color);
+}
+
+.contact {
+	padding: 2em;
+}
+
+/* Contact Page End*/
+
+/* Footer  */
+
+h5 {
+	color: var(--sec-color);
+}
+
+/* Footer End */
+
+/* Responsive */
+@media only screen and (min-width: 2000px) {
+	header .slider {
+		height: 40vh !important;
+	}
+
+	header .slides {
+		height: 40vh !important;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	#tyres h3 {
+		padding-top: 1em;
+	}
+
+	.refurb .slider {
+		height: 300px !important;
+	}
+
+	.refurb .slides {
+		height: 300px !important;
+	}
+}
+
+/* Responsive End */
